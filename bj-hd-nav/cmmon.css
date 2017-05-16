@@ -1,0 +1,65 @@
+body{ background: #ffffff; }
+.wrap{ width: 1210px; margin: 0 auto; }
+.clearfloat:after{ display: block; content: " "; clear: both; height: 0; overflow: hidden; font-size: 0; }
+.clearfloat{ zoom:1; }
+.header, .search, .nav, .banner, .main, .footer{ width: 100%; min-width: 1210px!important; }
+
+/*header*/
+.header{ width: 100%; min-width: 1210px!important; height: 36px; border-bottom: 1px solid #d5d7dc; background: #f2f2f2; }
+.header a{ font-size: 14px; text-align: center; line-height: 36px; color: #42833e; }
+.header .app{ float: left; /*height: 36px;*/ line-height: 36px; position: relative; }
+.header .app a{ display: inline-block; padding-right: 16px; background: url(../img/phone.png) no-repeat right center; }
+.header .app_code{ display: none; width: 190px; padding: 10px 0 10px 10px; background: #f2f2f2; /*margin-top: 1px;*/ z-index: 1000; position: absolute; top: 37px; left: 0; }
+.header .app_code img{ display: inline-block; width: 80px; height: 80px; margin-right: 10px; }
+.header .app_code p{ font-size: 14px; color: #323232; line-height: 18px; }
+.header .app_code p span{ display: inline-block; width: 80px; text-align: center; margin-right: 10px }
+.header .login{ float: right; height: 36px; }
+#sign{ margin-right: 20px; color: #282828; }
+
+/*search*/
+.search{ height: 149px; }
+.papa_logo{ float: left; width: 225px; height: 82px; padding: 28px 0 0 53px; }
+.papa_logo img{ float: left; width: 70px; height: 82px; padding:0 6px 0 0; }
+.papa_logo b{ float: left; font-size: 22px; color: #282828; font-weight: bold; margin-top: 24px; }
+.papa_logo span{ float: left; font-size: 14px; color: #cccccc; }
+
+#search{ float: left; margin: 55px 0 0 82px; }
+#search .inp{ float: left; width: 438px; height: 36px; color: #282828; font-size: 16px;line-height: 36px; text-indent: 10px; border: 2px solid #42833e; background: #fafafa; border-radius: 3px 0 0 3px;}
+#search .sub{ float: left; width: 118px; height: 40px; padding-left: 46px; line-height: 40px; font-size: 18px; color: #ffffff; text-align: center; cursor: pointer; background: #42833e url(../img/seach_but_ico.png) no-repeat 20px center; border-radius: 0 3px 3px 0;}
+.search .shoppingcar{ float: right; width: 126px; height: 34px; margin-top: 57px; padding-left: 52px; color: #282828; line-height: 34px; font-size: 16px; border: 1px solid #e3e3e3; background: #fafafa url(../img/shop_car_green.png) no-repeat 26px center; }
+.search .shoppingcar span{ display: inline-block; min-width: 22px; height: 24px; margin: 5px 0 0 6px; padding: 0 1px; text-align: center; line-height: 24px; border-radius: 50%; background: #42833e; color: #ffffff; font-weight: bold; }
+
+/*nav*/
+.nav{ height: 40px; background: #42833e; }
+.nav_but{ position: relative; }
+.nav_but li{ float: left; width: 110px; height: 40px; line-height: 40px; z-index: 31; position: relative; }
+.nav_but li a{ display: inline-block; width: 110px; height: 40px; line-height: 40px; text-align: center; color: #ffffff; font-size: 16px; }
+/*.nav_but .active{ width: 118px; }*/
+.nav_but .active a, .nav_but li a:hover{ font-size: 18px; }
+.nav_but .nav_hover{ display: block; width: 118px; height: 44px; position: absolute; bottom: 0; background: url(nav_ico.png) no-repeat left center; }
+
+/*footer*/
+.footer{ /*margin-top: 70px;*/ border-top: 1px solid #d5d7dc; }
+.footer .explain{ background: #fafafa; text-align: left; }
+.footer .explain .section{ float: left; width: 125px; height: 192px; padding: 29px 50px 0 67px; }
+.footer .explain .telephone{ width: 167px; padding-left: 25px; }
+.footer .explain .section h4{ height: 38px; line-height: 38px; font-size: 18px; font-weight: bold; color: #323232; }
+.footer .explain .telephone h4{ font-size: 22px; }
+.footer .explain .section li{ height: 24px; }
+.footer .explain .section li a, .footer .explain .telephone p{ font-size: 14px; line-height: 24px; text-align: left; color: #323232; }
+.footer .explain .telephone p+p{ font-size: 12px; line-height: 18px; color: #656565; text-indent: 25px; }
+.footer .explain .telephone .qq{ display: inline-block; width: 80px; height: 40px; margin: 15px 0 0 18px; padding-left: 40px; background: #e1e1e1 url(../img/QQ.png) no-repeat 11px center; font-size: 18px; line-height: 40px; color: #666666; border-radius: 3px; }
+
+.footer .info{ background: #666666; text-align: center; font-size: 12px; color: #ffffff; line-height: 20px; padding: 15px 0 20px; }
+.footer .info ul{ width: 1210px; margin: 0 auto; text-align: center; }
+.footer .info li { display: inline-block; height: 18px; padding: 0 5px 0 3px; }
+.footer .info li a{ font-size: 12px; color: #ffffff; line-height: 18px; }
+
+/*sidebar*/
+.sidebar{ position: fixed; right: 0; top: 300px; }
+.sidebar .shoppingcar{ display: inline-block; width: 16px; height: 85px; padding: 38px 12px 0; color: #ffffff; line-height: 16px; font-size: 16px; background: #333333 url(../img/shop_car_white.png) no-repeat center 12px; border-radius: 6px; }
+.sidebar .shoppingcar span{ display: inline-block; min-width: 22px; height: 24px; margin: 5px 0 0 -4px; padding: 0 1px; text-align: center; line-height: 24px; border-radius: 50%; background: #42833e; color: #ffffff; font-weight: bold; }
+.sidebar .contact { width: 30px; height: 77px; padding: 3px 5px; margin-top: 7px; background: #333333; border-radius: 6px; }
+.sidebar .contact a{ display: inline-block; width: 30px; height: 38px; }
+.sidebar .contact .art{ background: url(../img/art.png) no-repeat center 6px; border-bottom: 1px solid #ffffff; }
+.sidebar .contact .qq{ background: url(../img/QQ_white.png) no-repeat center 4px; }
